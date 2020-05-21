@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.6.1",
     "core-js": "^2.6.5",
     "tailwindcss": "^1.0.4",
