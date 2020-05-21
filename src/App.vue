@@ -1,14 +1,12 @@
 <template>
   <div id="app">
     <div class="bg-gray-100 flex">
-      <div
-        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
-      >
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class="xl:max-w-lg xl:ml-auto">
           <img class="h-10" src="/img/logo.svg" alt="Worcation" />
 
           <img
-            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden"
             src="/img/beach-work.jpg"
             alt="woman on worcation"
           />
@@ -18,7 +16,7 @@
           >
             You can work from anywhere,
             <br class="hidden lg:inline" />
-            <span class="text-indigo-500">Take advantage of it.</span>
+            <span class="text-brand-blue">Take advantage of it.</span>
           </h1>
 
           <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
@@ -28,12 +26,8 @@
           </p>
 
           <div class="mt-4 sm:mt-6">
-            <a href="#" class="btn btn-indigo shadow-lg sm:text-base"
-              >Book your escape</a
-            >
-            <a href="#" class="ml-2 btn btn-gray shadow-lg sm:text-base"
-              >Learn more</a
-            >
+            <a href="#" class="btn bg-brand-blue text-white shadow-lg sm:text-base">Book your escape</a>
+            <a href="#" class="ml-2 btn btn-gray shadow-lg sm:text-base">Learn more</a>
           </div>
         </div>
       </div>
@@ -72,7 +66,7 @@ import DestinationCard from "./components/DestinationCard";
 export default {
   name: "App",
   components: {
-    DestinationCard,
+    DestinationCard
   },
   data() {
     return {
@@ -82,46 +76,46 @@ export default {
           averagePrice: 120,
           propertyCount: 76,
           imageUrl: "/img/toronto.jpg",
-          imageAlt: "Toronto skyline",
+          imageAlt: "Toronto skyline"
         },
         {
           city: "Malibu",
           averagePrice: 215,
           propertyCount: 43,
           imageUrl: "/img/malibu.jpg",
-          imageAlt: "Cliff in Malibu",
+          imageAlt: "Cliff in Malibu"
         },
         {
           city: "Chicago",
           averagePrice: 130,
           propertyCount: 115,
           imageUrl: "/img/chicago.jpg",
-          imageAlt: "Chicago skyline",
+          imageAlt: "Chicago skyline"
         },
         {
           city: "Seattle",
           averagePrice: 135,
           propertyCount: 63,
           imageUrl: "/img/seattle.jpg",
-          imageAlt: "Seattle skyline",
+          imageAlt: "Seattle skyline"
         },
         {
           city: "Colorado",
           averagePrice: 85,
           propertyCount: 47,
           imageUrl: "/img/colorado.jpg",
-          imageAlt: "Lake in Colorado",
+          imageAlt: "Lake in Colorado"
         },
         {
           city: "Miami",
           averagePrice: 115,
           propertyCount: 86,
           imageUrl: "/img/miami.jpg",
-          imageAlt: "Beach in Miami",
-        },
-      ],
+          imageAlt: "Beach in Miami"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
