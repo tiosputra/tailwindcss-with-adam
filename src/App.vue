@@ -25,6 +25,8 @@
             vacation.
           </p>
 
+          <AccountDropdown />
+
           <div class="mt-4 sm:mt-6">
             <a href="#" class="btn bg-brand-blue text-white shadow-lg sm:text-base">Book your escape</a>
             <a href="#" class="ml-2 btn btn-gray shadow-lg sm:text-base">Learn more</a>
@@ -63,10 +65,13 @@
 
 <script>
 import DestinationCard from "./components/DestinationCard";
+import AccountDropdown from "./components/AccountDropdown";
+
 export default {
   name: "App",
   components: {
-    DestinationCard
+    DestinationCard,
+    AccountDropdown
   },
   data() {
     return {
